@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
     value.each do |second_key, names_array|
       names_array.each do |name|
         if !final_array[name]
+          final_array[name] 
       end
     end
     final_array
