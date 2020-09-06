@@ -1,5 +1,5 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
-  data.with_each
+  data.each_with_object
   binding.pry
 end
