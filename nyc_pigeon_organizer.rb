@@ -6,11 +6,13 @@ def nyc_pigeon_organizer(data)
       names_array.each do |name|
         if !final_array[name]
           final_array[name] = {}
-      end
+  end
       if !final_array[name][key]
         !final_array[name][key] = []
-    end
+      end
     final_array[name][key].push(second_key.to_s)
     final_array
-  end
+        end
+          end
+      end
 end
